@@ -25,7 +25,7 @@ connection <- tryCatch({
             host = "localhost",
             port = 3306,
             user = "root",
-            password = "loubani1045")
+            password = "Loubani1045!")
 }, error = function(e) {
   log_message(paste("FEJL: Kunne ikke oprette forbindelse til MySQL:", e$message))
   stop(e)
